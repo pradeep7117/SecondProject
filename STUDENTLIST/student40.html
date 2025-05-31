@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Student Profile - College Portal</title>
+  <script src="otp.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
+  <style>
+    body { font-family: 'Segoe UI', Arial, sans-serif; background: #f7f8fa; margin: 0; }
+    .header { background: #fff; box-shadow: 0 2px 4px #0001; padding: 1rem 2rem; display: flex; align-items: center; justify-content: space-between; }
+    .header .brand { font-size: 1.5rem; color: #fbbf24; font-weight: bold; }
+    .header nav a { margin: 0 1rem; color: #222; text-decoration: none; font-weight: 500; }
+    .container { max-width: 900px; margin: 2rem auto; background: #fff; border-radius: 10px; box-shadow: 0 2px 8px #0001; padding: 2rem; }
+    .profile-card { display: flex; align-items: center; gap: 2rem; }
+    .profile-pic { width: 120px; height: 120px; border-radius: 50%; object-fit: cover; border: 4px solid #22c55e; }
+    .profile-info h2 { margin: 0 0 0.5rem 0; }
+    .profile-info .status { color: #22c55e; font-weight: bold; }
+    .profile-info .details { margin: 0.5rem 0; color: #555; }
+    .profile-info .details i { margin-right: 0.5rem; }
+    .tabs { display: flex; border-bottom: 2px solid #eee; margin: 2rem 0 1rem 0; }
+    .tab { padding: 0.75rem 2rem; cursor: pointer; border-bottom: 2px solid transparent; }
+    .tab.active { border-bottom: 2px solid #fbbf24; color: #fbbf24; font-weight: bold; }
+    .section { margin: 2rem 0; }
+    .section-title { font-size: 1.2rem; color: #222; margin-bottom: 1rem; }
+    .details-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem 2rem; }
+    .details-grid div { color: #444; }
+    .links { display: flex; gap: 2rem; margin-top: 2rem; }
+    .links a { text-decoration: none; color: #2563eb; font-weight: 500; display: flex; align-items: center; gap: 0.5rem; }
+    .links a i { font-size: 1.2rem; }
+    @media (max-width: 700px) {
+      .container { padding: 1rem; }
+      .profile-card { flex-direction: column; align-items: flex-start; }
+      .details-grid { grid-template-columns: 1fr; }
+      .tabs { flex-direction: column; }
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <div class="brand">CollegeName</div>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Courses</a>
+      <a href="#">Practice</a>
+      <a href="#">Contact</a>
+    </nav>
+    <img src="https://randomuser.me/api/portraits/men/40.jpg" alt="Profile" style="width:40px; height:40px; border-radius:50%;">
+  </div>
+  <div class="container">
+    <div class="profile-card">
+      <img src="https://randomuser.me/api/portraits/men/40.jpg" alt="Student Photo" class="profile-pic"/>
+      <div class="profile-info">
+        <h2>Student Name 40</h2>
+        <div class="status"><i class="fa fa-check-circle"></i> 100% Profile Complete</div>
+        <div class="details"><i class="fa fa-envelope"></i> student40@email.com</div>
+        <div class="details"><i class="fa fa-phone"></i> 9000000040</div>
+        <div class="details"><i class="fa fa-mars"></i> Male</div>
+        <div class="details"><i class="fa fa-calendar"></i> 13/05/2001</div>
+        <div class="details"><i class="fa fa-briefcase"></i> No Experience - Fresher</div>
+      </div>
+    </div>
+    <div class="tabs">
+      <div class="tab active">Profile</div>
+      <div class="tab">Attendance</div>
+      <div class="tab">Subscription</div>
+      <div class="tab">Referral</div>
+      <div class="tab">Certificate</div>
+    </div>
+    <!-- Education Details Section -->
+    <div class="section">
+      <div class="section-title">Education Details</div>
+      <div style="display: flex; flex-direction: column; gap: 1.5rem;">
+        <!-- 10th Grade Card -->
+        <div style="background:#f7f8fa; border-radius:10px; padding:1.5rem; box-shadow:0 1px 4px #0001;">
+          <div style="display:flex; justify-content:space-between; align-items:center;">
+            <b style="color:#22c55e;">10th Grade</b>
+            <span style="color:#888;">Year of Passout: <b>2010</b></span>
+          </div>
+          <div style="margin-top:1rem;">
+            <div><b>School Name:</b> School 40</div>
+            <div><b>Marks in %:</b> 70</div>
+          </div>
+        </div>
+        <!-- 12th Grade Card -->
+        <div style="background:#f7f8fa; border-radius:10px; padding:1.5rem; box-shadow:0 1px 4px #0001;">
+          <div style="display:flex; justify-content:space-between; align-items:center;">
+            <b style="color:#22c55e;">12th / PUC / Intermediate / Diploma</b>
+            <span style="color:#888;">Year of Passout: <b>2012</b></span>
+          </div>
+          <div style="margin-top:1rem;">
+            <div><b>School Name:</b> College 40</div>
+            <div><b>Marks in %:</b> 67</div>
+          </div>
+        </div>
+        <!-- UG Card -->
+        <div style="background:#f7f8fa; border-radius:10px; padding:1.5rem; box-shadow:0 1px 4px #0001;">
+          <div style="display:flex; justify-content:space-between; align-items:center;">
+            <b style="color:#22c55e;">UG Detail</b>
+          </div>
+          <div style="margin-top:1rem; display:grid; grid-template-columns:1fr 1fr; gap:1rem;">
+            <div><b>University Roll No.:</b> 21F21A0040</div>
+            <div><b>College Name:</b> College Name 40</div>
+            <div><b>Branch:</b> CSE</div>
+            <div><b>Year of Passout:</b> 2016</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Education Details Section -->
+    <div class="section">
+      <div class="section-title">Generic Details</div>
+      <div class="details-grid">
+        <div><b>Work Experience:</b> No Experience - Fresher</div>
+        <div><b>Career Gap:</b> 0</div>
+        <div><b>Current State:</b> Andhra Pradesh</div>
+        <div><b>Current City:</b> Anantapur</div>
+        <div><b>Preferred Location:</b> Bangalore, Hyderabad, Chennai</div>
+      </div>
+    </div>
+    <div class="links">
+      <a href="https://github.com/" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+      <a href="https://linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+      <a href="#" target="_blank"><i class="fa fa-file"></i> View Resume</a>
+    </div>
+  </div>
+</body>
+</html>

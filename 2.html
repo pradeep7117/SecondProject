@@ -1,0 +1,1649 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Student Profiles - College Portal</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body { font-family: 'Segoe UI', Arial, sans-serif; background: #f7f8fa; margin: 0; }
+    .header { background: #fff; box-shadow: 0 2px 4px #0001; padding: 1rem 2rem; display: flex; align-items: center; justify-content: space-between; }
+    .header .brand { font-size: 1.5rem; color: #fbbf24; font-weight: bold; }
+    .container { max-width: 1200px; margin: 2rem auto; }
+    .students-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 2rem; }
+    .student-card { background: #fff; border-radius: 10px; box-shadow: 0 2px 8px #0001; padding: 2rem; display: flex; flex-direction: column; align-items: center; }
+    .profile-pic { width: 90px; height: 90px; border-radius: 50%; object-fit: cover; border: 3px solid #22c55e; }
+    .student-info { text-align: center; margin-top: 1rem; }
+    .student-info h3 { margin: 0.5rem 0 0.2rem 0; }
+    .student-info .college { color: #2563eb; font-weight: 500; }
+    .student-info .details { color: #555; font-size: 0.95rem; margin: 0.2rem 0; }
+    .links { display: flex; gap: 1rem; margin-top: 1rem; }
+    .links a { text-decoration: none; color: #2563eb; font-weight: 500; }
+    @media (max-width: 700px) {
+      .container { padding: 1rem; }
+      .students-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+<div id="cc">
+  <h1>Kodenest</h1>
+  <nav id="nav">
+    <a href="home.html">Home</a>
+    <a href="2.html">our students</a>
+    <a href="hi.html">login</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</div>
+  <div class="header">
+    <div class="brand">College Portal</div>
+  </div>
+  <div class="container">
+    <div class="students-grid">
+      
+      <div class="student-card">
+        <img src="https://randomuser.me/api/portraits/women/1.jpg" alt="Student Photo" class="profile-pic"/>
+        <div class="student-info">
+          <h3>Isha Verma</h3>
+          <div class="college">NIT Trichy</div>
+          <div class="details"><i class="fa fa-envelope"></i> isha.verma1@email.com</div>
+          <div class="details"><i class="fa fa-phone"></i> 9000000001</div>
+          <div class="details"><i class="fa fa-venus"></i> Female</div>
+          <div class="details"><i class="fa fa-calendar"></i> 02/02/2001</div>
+        </div>
+        <div class="links">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    
+      <div class="student-card">
+        <img src="https://randomuser.me/api/portraits/men/2.jpg" alt="Student Photo" class="profile-pic"/>
+        <div class="student-info">
+          <h3>Aditya Reddy</h3>
+          <div class="college">BITS Pilani</div>
+          <div class="details"><i class="fa fa-envelope"></i> aditya.reddy2@email.com</div>
+          <div class="details"><i class="fa fa-phone"></i> 9000000002</div>
+          <div class="details"><i class="fa fa-mars"></i> Male</div>
+          <div class="details"><i class="fa fa-calendar"></i> 03/03/2002</div>
+        </div>
+        <div class="links">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    
+      <div class="student-card">
+        <img src="https://randomuser.me/api/portraits/women/3.jpg" alt="Student Photo" class="profile-pic"/>
+        <div class="student-info">
+          <h3>Priya Patel</h3>
+          <div class="college">GATES INSTITUTE OF TECHNOLOGY</div>
+          <div class="details"><i class="fa fa-envelope"></i> priya.patel3@email.com</div>
+          <div class="details"><i class="fa fa-phone"></i> 9000000003</div>
+          <div class="details"><i class="fa fa-venus"></i> Female</div>
+          <div class="details"><i class="fa fa-calendar"></i> 04/04/2003</div>
+        </div>
+        <div class="links">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    
+      <div class="student-card">
+        <img src="https://randomuser.me/api/portraits/men/4.jpg" alt="Student Photo" class="profile-pic"/>
+        <div class="student-info">
+          <h3>Arjun Mehta</h3>
+          <div class="college">KL University</div>
+          <div class="details"><i class="fa fa-envelope"></i> arjun.mehta4@email.com</div>
+          <div class="details"><i class="fa fa-phone"></i> 9000000004</div>
+          <div class="details"><i class="fa fa-mars"></i> Male</div>
+          <div class="details"><i class="fa fa-calendar"></i> 05/05/2004</div>
+        </div>
+        <div class="links">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    
+      <div class="student-card">
+        <img src="https://randomuser.me/api/portraits/women/5.jpg" alt="Student Photo" class="profile-pic"/>
+        <div class="student-info">
+          <h3>Tanya Gupta</h3>
+          <div class="college">Anna University</div>
+          <div class="details"><i class="fa fa-envelope"></i> tanya.gupta5@email.com</div>
+          <div class="details"><i class="fa fa-phone"></i> 9000000005</div>
+          <div class="details"><i class="fa fa-venus"></i> Female</div>
+          <div class="details"><i class="fa fa-calendar"></i> 06/06/2005</div>
+        </div>
+        <div class="links">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    
+      <div class="student-card">
+        <img src="https://randomuser.me/api/portraits/men/6.jpg" alt="Student Photo" class="profile-pic"/>
+        <div class="student-info">
+          <h3>Rahul Kumar</h3>
+          <div class="college">IIT Bombay</div>
+          <div class="details"><i class="fa fa-envelope"></i> rahul.kumar6@email.com</div>
+          <div class="details"><i class="fa fa-phone"></i> 9000000006</div>
+          <div class="details"><i class="fa fa-mars"></i> Male</div>
+          <div class="details"><i class="fa fa-calendar"></i> 07/07/2006</div>
+        </div>
+        <div class="links">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    
+      <div class="student-card">
+        <img src="https://randomuser.me/api/portraits/women/7.jpg" alt="Student Photo" class="profile-pic"/>
+        <div class="student-info">
+          <h3>Divya Rao</h3>
+          <div class="college">NIT Trichy</div>
+          <div class="details"><i class="fa fa-envelope"></i> divya.rao7@email.com</div>
+          <div class="details"><i class="fa fa-phone"></i> 9000000007</div>
+          <div class="details"><i class="fa fa-venus"></i> Female</div>
+          <div class="details"><i class="fa fa-calendar"></i> 08/08/2007</div>
+        </div>
+        <div class="links">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    
+      <div class="student-card">
+        <img src="https://randomuser.me/api/portraits/men/8.jpg" alt="Student Photo" class="profile-pic"/>
+        <div class="student-info">
+          <h3>Yash Nair</h3>
+          <div class="college">BITS Pilani</div>
+          <div class="details"><i class="fa fa-envelope"></i> yash.nair8@email.com</div>
+          <div class="details"><i class="fa fa-phone"></i> 9000000008</div>
+          <div class="details"><i class="fa fa-mars"></i> Male</div>
+          <div class="details"><i class="fa fa-calendar"></i> 09/09/2008</div>
+        </div>
+        <div class="links">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    
+      <div class="student-card">
+        <img src="https://randomuser.me/api/portraits/women/9.jpg" alt="Student Photo" class="profile-pic"/>
+        <div class="student-info">
+          <h3>Ritika Das</h3>
+          <div class="college">GATES INSTITUTE OF TECHNOLOGY</div>
+          <div class="details"><i class="fa fa-envelope"></i> ritika.das9@email.com</div>
+          <div class="details"><i class="fa fa-phone"></i> 9000000009</div>
+          <div class="details"><i class="fa fa-venus"></i> Female</div>
+          <div class="details"><i class="fa fa-calendar"></i> 10/01/2009</div>
+        </div>
+        <div class="links">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    
+      <div class="student-card">
+        <img src="https://randomuser.me/api/portraits/men/10.jpg" alt="Student Photo" class="profile-pic"/>
+        <div class="student-info">
+          <h3>Aarav Sharma</h3>
+          <div class="college">KL University</div>
+          <div class="details"><i class="fa fa-envelope"></i> aarav.sharma10@email.com</div>
+          <div class="details"><i class="fa fa-phone"></i> 9000000010</div>
+          <div class="details"><i class="fa fa-mars"></i> Male</div>
+          <div class="details"><i class="fa fa-calendar"></i> 11/02/2000</div>
+        </div>
+        <div class="links">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    
+      <div class="student-card">
+        <img src="https://randomuser.me/api/portraits/women/11.jpg" alt="Student Photo" class="profile-pic"/>
+        <div class="student-info">
+          <h3>Isha Verma</h3>
+          <div class="college">Anna University</div>
+          <div class="details"><i class="fa fa-envelope"></i> isha.verma11@email.com</div>
+          <div class="details"><i class="fa fa-phone"></i> 9000000011</div>
+          <div class="details"><i class="fa fa-venus"></i> Female</div>
+          <div class="details"><i class="fa fa-calendar"></i> 12/03/2001</div>
+        </div>
+        <div class="links">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    
+      <div class="student-card">
+        <img src="https://randomuser.me/api/portraits/men/12.jpg" alt="Student Photo" class="profile-pic"/>
+        <div class="student-info">
+          <h3>Aditya Reddy</h3>
+          <div class="college">IIT Bombay</div>
+          <div class="details"><i class="fa fa-envelope"></i> aditya.reddy12@email.com</div>
+          <div class="details"><i class="fa fa-phone"></i> 9000000012</div>
+          <div class="details"><i class="fa fa-mars"></i> Male</div>
+          <div class="details"><i class="fa fa-calendar"></i> 13/04/2002</div>
+        </div>
+        <div class="links">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    
+      <div class="student-card">
+        <img src="https://randomuser.me/api/portraits/women/13.jpg" alt="Student Photo" class="profile-pic"/>
+        <div class="student-info">
+          <h3>Priya Patel</h3>
+          <div class="college">NIT Trichy</div>
+          <div class="details"><i class="fa fa-envelope"></i> priya.patel13@email.com</div>
+          <div class="details"><i class="fa fa-phone"></i> 9000000013</div>
+          <div class="details"><i class="fa fa-venus"></i> Female</div>
+          <div class="details"><i class="fa fa-calendar"></i> 14/05/2003</div>
+        </div>
+        <div class="links">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    
+      <div class="student-card">
+        <img src="https://randomuser.me/api/portraits/men/14.jpg" alt="Student Photo" class="profile-pic"/>
+        <div class="student-info">
+          <h3>Arjun Mehta</h3>
+          <div class="college">BITS Pilani</div>
+          <div class="details"><i class="fa fa-envelope"></i> arjun.mehta14@email.com</div>
+          <div class="details"><i class="fa fa-phone"></i> 9000000014</div>
+          <div class="details"><i class="fa fa-mars"></i> Male</div>
+          <div class="details"><i class="fa fa-calendar"></i> 15/06/2004</div>
+        </div>
+        <div class="links">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    
+      <div class="student-card">
+        <img src="https://randomuser.me/api/portraits/women/15.jpg" alt="Student Photo" class="profile-pic"/>
+        <div class="student-info">
+          <h3>Tanya Gupta</h3>
+          <div class="college">GATES INSTITUTE OF TECHNOLOGY</div>
+          <div class="details"><i class="fa fa-envelope"></i> tanya.gupta15@email.com</div>
+          <div class="details"><i class="fa fa-phone"></i> 9000000015</div>
+          <div class="details"><i class="fa fa-venus"></i> Female</div>
+          <div class="details"><i class="fa fa-calendar"></i> 16/07/2005</div>
+        </div>
+        <div class="links">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    
+      <div class="student-card">
+        <img src="https://randomuser.me/api/portraits/men/16.jpg" alt="Student Photo" class="profile-pic"/>
+        <div class="student-info">
+          <h3>Rahul Kumar</h3>
+          <div class="college">KL University</div>
+          <div class="details"><i class="fa fa-envelope"></i> rahul.kumar16@email.com</div>
+          <div class="details"><i class="fa fa-phone"></i> 9000000016</div>
+          <div class="details"><i class="fa fa-mars"></i> Male</div>
+          <div class="details"><i class="fa fa-calendar"></i> 17/08/2006</div>
+        </div>
+        <div class="links">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    
+      <div class="student-card">
+        <img src="https://randomuser.me/api/portraits/women/17.jpg" alt="Student Photo" class="profile-pic"/>
+        <div class="student-info">
+          <h3>Divya Rao</h3>
+          <div class="college">Anna University</div>
+          <div class="details"><i class="fa fa-envelope"></i> divya.rao17@email.com</div>
+          <div class="details"><i class="fa fa-phone"></i> 9000000017</div>
+          <div class="details"><i class="fa fa-venus"></i> Female</div>
+          <div class="details"><i class="fa fa-calendar"></i> 18/09/2007</div>
+        </div>
+        <div class="links">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    
+      <div class="student-card">
+        <img src="https://randomuser.me/api/portraits/men/18.jpg" alt="Student Photo" class="profile-pic"/>
+        <div class="student-info">
+          <h3>Yash Nair</h3>
+          <div class="college">IIT Bombay</div>
+          <div class="details"><i class="fa fa-envelope"></i> yash.nair18@email.com</div>
+          <div class="details"><i class="fa fa-phone"></i> 9000000018</div>
+          <div class="details"><i class="fa fa-mars"></i> Male</div>
+          <div class="details"><i class="fa fa-calendar"></i> 19/01/2008</div>
+        </div>
+        <div class="links">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    
+      <div class="student-card">
+        <img src="https://randomuser.me/api/portraits/women/19.jpg" alt="Student Photo" class="profile-pic"/>
+        <div class="student-info">
+          <h3>Ritika Das</h3>
+          <div class="college">NIT Trichy</div>
+          <div class="details"><i class="fa fa-envelope"></i> ritika.das19@email.com</div>
+          <div class="details"><i class="fa fa-phone"></i> 9000000019</div>
+          <div class="details"><i class="fa fa-venus"></i> Female</div>
+          <div class="details"><i class="fa fa-calendar"></i> 20/02/2009</div>
+        </div>
+        <div class="links">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    
+      <div class="student-card">
+        <img src="https://randomuser.me/api/portraits/men/20.jpg" alt="Student Photo" class="profile-pic"/>
+        <div class="student-info">
+          <h3>Aarav Sharma</h3>
+          <div class="college">BITS Pilani</div>
+          <div class="details"><i class="fa fa-envelope"></i> aarav.sharma20@email.com</div>
+          <div class="details"><i class="fa fa-phone"></i> 9000000020</div>
+          <div class="details"><i class="fa fa-mars"></i> Male</div>
+          <div class="details"><i class="fa fa-calendar"></i> 21/03/2000</div>
+        </div>
+        <div class="links">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    
+      <div class="student-card">
+        <img src="https://randomuser.me/api/portraits/women/21.jpg" alt="Student Photo" class="profile-pic"/>
+        <div class="student-info">
+          <h3>Isha Verma</h3>
+          <div class="college">GATES INSTITUTE OF TECHNOLOGY</div>
+          <div class="details"><i class="fa fa-envelope"></i> isha.verma21@email.com</div>
+          <div class="details"><i class="fa fa-phone"></i> 9000000021</div>
+          <div class="details"><i class="fa fa-venus"></i> Female</div>
+          <div class="details"><i class="fa fa-calendar"></i> 22/04/2001</div>
+        </div>
+        <div class="links">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    
+      <div class="student-card">
+        <img src="https://randomuser.me/api/portraits/men/22.jpg" alt="Student Photo" class="profile-pic"/>
+        <div class="student-info">
+          <h3>Aditya Reddy</h3>
+          <div class="college">KL University</div>
+          <div class="details"><i class="fa fa-envelope"></i> aditya.reddy22@email.com</div>
+          <div class="details"><i class="fa fa-phone"></i> 9000000022</div>
+          <div class="details"><i class="fa fa-mars"></i> Male</div>
+          <div class="details"><i class="fa fa-calendar"></i> 23/05/2002</div>
+        </div>
+        <div class="links">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    
+      <div class="student-card">
+        <img src="https://randomuser.me/api/portraits/women/23.jpg" alt="Student Photo" class="profile-pic"/>
+        <div class="student-info">
+          <h3>Priya Patel</h3>
+          <div class="college">Anna University</div>
+          <div class="details"><i class="fa fa-envelope"></i> priya.patel23@email.com</div>
+          <div class="details"><i class="fa fa-phone"></i> 9000000023</div>
+          <div class="details"><i class="fa fa-venus"></i> Female</div>
+          <div class="details"><i class="fa fa-calendar"></i> 24/06/2003</div>
+        </div>
+        <div class="links">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    
+      <div class="student-card">
+        <img src="https://randomuser.me/api/portraits/men/24.jpg" alt="Student Photo" class="profile-pic"/>
+        <div class="student-info">
+          <h3>Arjun Mehta</h3>
+          <div class="college">IIT Bombay</div>
+          <div class="details"><i class="fa fa-envelope"></i> arjun.mehta24@email.com</div>
+          <div class="details"><i class="fa fa-phone"></i> 9000000024</div>
+          <div class="details"><i class="fa fa-mars"></i> Male</div>
+          <div class="details"><i class="fa fa-calendar"></i> 25/07/2004</div>
+        </div>
+        <div class="links">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    
+      <div class="student-card">
+        <img src="https://randomuser.me/api/portraits/women/25.jpg" alt="Student Photo" class="profile-pic"/>
+        <div class="student-info">
+          <h3>Tanya Gupta</h3>
+          <div class="college">NIT Trichy</div>
+          <div class="details"><i class="fa fa-envelope"></i> tanya.gupta25@email.com</div>
+          <div class="details"><i class="fa fa-phone"></i> 9000000025</div>
+          <div class="details"><i class="fa fa-venus"></i> Female</div>
+          <div class="details"><i class="fa fa-calendar"></i> 26/08/2005</div>
+        </div>
+        <div class="links">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    
+      <div class="student-card">
+        <img src="https://randomuser.me/api/portraits/men/26.jpg" alt="Student Photo" class="profile-pic"/>
+        <div class="student-info">
+          <h3>Rahul Kumar</h3>
+          <div class="college">BITS Pilani</div>
+          <div class="details"><i class="fa fa-envelope"></i> rahul.kumar26@email.com</div>
+          <div class="details"><i class="fa fa-phone"></i> 9000000026</div>
+          <div class="details"><i class="fa fa-mars"></i> Male</div>
+          <div class="details"><i class="fa fa-calendar"></i> 27/09/2006</div>
+        </div>
+        <div class="links">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    
+      <div class="student-card">
+        <img src="https://randomuser.me/api/portraits/women/27.jpg" alt="Student Photo" class="profile-pic"/>
+        <div class="student-info">
+          <h3>Divya Rao</h3>
+          <div class="college">GATES INSTITUTE OF TECHNOLOGY</div>
+          <div class="details"><i class="fa fa-envelope"></i> divya.rao27@email.com</div>
+          <div class="details"><i class="fa fa-phone"></i> 9000000027</div>
+          <div class="details"><i class="fa fa-venus"></i> Female</div>
+          <div class="details"><i class="fa fa-calendar"></i> 28/01/2007</div>
+        </div>
+        <div class="links">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    
+      <div class="student-card">
+        <img src="https://randomuser.me/api/portraits/men/28.jpg" alt="Student Photo" class="profile-pic"/>
+        <div class="student-info">
+          <h3>Yash Nair</h3>
+          <div class="college">KL University</div>
+          <div class="details"><i class="fa fa-envelope"></i> yash.nair28@email.com</div>
+          <div class="details"><i class="fa fa-phone"></i> 9000000028</div>
+          <div class="details"><i class="fa fa-mars"></i> Male</div>
+          <div class="details"><i class="fa fa-calendar"></i> 01/02/2008</div>
+        </div>
+        <div class="links">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    
+      <div class="student-card">
+        <img src="https://randomuser.me/api/portraits/women/29.jpg" alt="Student Photo" class="profile-pic"/>
+        <div class="student-info">
+          <h3>Ritika Das</h3>
+          <div class="college">Anna University</div>
+          <div class="details"><i class="fa fa-envelope"></i> ritika.das29@email.com</div>
+          <div class="details"><i class="fa fa-phone"></i> 9000000029</div>
+          <div class="details"><i class="fa fa-venus"></i> Female</div>
+          <div class="details"><i class="fa fa-calendar"></i> 02/03/2009</div>
+        </div>
+        <div class="links">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    
+      <div class="student-card">
+        <img src="https://randomuser.me/api/portraits/men/30.jpg" alt="Student Photo" class="profile-pic"/>
+        <div class="student-info">
+          <h3>Aarav Sharma</h3>
+          <div class="college">IIT Bombay</div>
+          <div class="details"><i class="fa fa-envelope"></i> aarav.sharma30@email.com</div>
+          <div class="details"><i class="fa fa-phone"></i> 9000000030</div>
+          <div class="details"><i class="fa fa-mars"></i> Male</div>
+          <div class="details"><i class="fa fa-calendar"></i> 03/04/2000</div>
+        </div>
+        <div class="links">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    
+      <div class="student-card">
+        <img src="https://randomuser.me/api/portraits/women/31.jpg" alt="Student Photo" class="profile-pic"/>
+        <div class="student-info">
+          <h3>Isha Verma</h3>
+          <div class="college">NIT Trichy</div>
+          <div class="details"><i class="fa fa-envelope"></i> isha.verma31@email.com</div>
+          <div class="details"><i class="fa fa-phone"></i> 9000000031</div>
+          <div class="details"><i class="fa fa-venus"></i> Female</div>
+          <div class="details"><i class="fa fa-calendar"></i> 04/05/2001</div>
+        </div>
+        <div class="links">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    
+      <div class="student-card">
+        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Student Photo" class="profile-pic"/>
+        <div class="student-info">
+          <h3>Aditya Reddy</h3>
+          <div class="college">BITS Pilani</div>
+          <div class="details"><i class="fa fa-envelope"></i> aditya.reddy32@email.com</div>
+          <div class="details"><i class="fa fa-phone"></i> 9000000032</div>
+          <div class="details"><i class="fa fa-mars"></i> Male</div>
+          <div class="details"><i class="fa fa-calendar"></i> 05/06/2002</div>
+        </div>
+        <div class="links">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    
+      <div class="student-card">
+        <img src="https://randomuser.me/api/portraits/women/33.jpg" alt="Student Photo" class="profile-pic"/>
+        <div class="student-info">
+          <h3>Priya Patel</h3>
+          <div class="college">GATES INSTITUTE OF TECHNOLOGY</div>
+          <div class="details"><i class="fa fa-envelope"></i> priya.patel33@email.com</div>
+          <div class="details"><i class="fa fa-phone"></i> 9000000033</div>
+          <div class="details"><i class="fa fa-venus"></i> Female</div>
+          <div class="details"><i class="fa fa-calendar"></i> 06/07/2003</div>
+        </div>
+        <div class="links">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    
+      <div class="student-card">
+        <img src="https://randomuser.me/api/portraits/men/34.jpg" alt="Student Photo" class="profile-pic"/>
+        <div class="student-info">
+          <h3>Arjun Mehta</h3>
+          <div class="college">KL University</div>
+          <div class="details"><i class="fa fa-envelope"></i> arjun.mehta34@email.com</div>
+          <div class="details"><i class="fa fa-phone"></i> 9000000034</div>
+          <div class="details"><i class="fa fa-mars"></i> Male</div>
+          <div class="details"><i class="fa fa-calendar"></i> 07/08/2004</div>
+        </div>
+        <div class="links">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    
+      <div class="student-card">
+        <img src="https://randomuser.me/api/portraits/women/35.jpg" alt="Student Photo" class="profile-pic"/>
+        <div class="student-info">
+          <h3>Tanya Gupta</h3>
+          <div class="college">Anna University</div>
+          <div class="details"><i class="fa fa-envelope"></i> tanya.gupta35@email.com</div>
+          <div class="details"><i class="fa fa-phone"></i> 9000000035</div>
+          <div class="details"><i class="fa fa-venus"></i> Female</div>
+          <div class="details"><i class="fa fa-calendar"></i> 08/09/2005</div>
+        </div>
+        <div class="links">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    
+      <div class="student-card">
+        <img src="https://randomuser.me/api/portraits/men/36.jpg" alt="Student Photo" class="profile-pic"/>
+        <div class="student-info">
+          <h3>Rahul Kumar</h3>
+          <div class="college">IIT Bombay</div>
+          <div class="details"><i class="fa fa-envelope"></i> rahul.kumar36@email.com</div>
+          <div class="details"><i class="fa fa-phone"></i> 9000000036</div>
+          <div class="details"><i class="fa fa-mars"></i> Male</div>
+          <div class="details"><i class="fa fa-calendar"></i> 09/01/2006</div>
+        </div>
+        <div class="links">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    
+      <div class="student-card">
+        <img src="https://randomuser.me/api/portraits/women/37.jpg" alt="Student Photo" class="profile-pic"/>
+        <div class="student-info">
+          <h3>Divya Rao</h3>
+          <div class="college">NIT Trichy</div>
+          <div class="details"><i class="fa fa-envelope"></i> divya.rao37@email.com</div>
+          <div class="details"><i class="fa fa-phone"></i> 9000000037</div>
+          <div class="details"><i class="fa fa-venus"></i> Female</div>
+          <div class="details"><i class="fa fa-calendar"></i> 10/02/2007</div>
+        </div>
+        <div class="links">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    
+      <div class="student-card">
+        <img src="https://randomuser.me/api/portraits/men/38.jpg" alt="Student Photo" class="profile-pic"/>
+        <div class="student-info">
+          <h3>Yash Nair</h3>
+          <div class="college">BITS Pilani</div>
+          <div class="details"><i class="fa fa-envelope"></i> yash.nair38@email.com</div>
+          <div class="details"><i class="fa fa-phone"></i> 9000000038</div>
+          <div class="details"><i class="fa fa-mars"></i> Male</div>
+          <div class="details"><i class="fa fa-calendar"></i> 11/03/2008</div>
+        </div>
+        <div class="links">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    
+      <div class="student-card">
+        <img src="https://randomuser.me/api/portraits/women/39.jpg" alt="Student Photo" class="profile-pic"/>
+        <div class="student-info">
+          <h3>Ritika Das</h3>
+          <div class="college">GATES INSTITUTE OF TECHNOLOGY</div>
+          <div class="details"><i class="fa fa-envelope"></i> ritika.das39@email.com</div>
+          <div class="details"><i class="fa fa-phone"></i> 9000000039</div>
+          <div class="details"><i class="fa fa-venus"></i> Female</div>
+          <div class="details"><i class="fa fa-calendar"></i> 12/04/2009</div>
+        </div>
+        <div class="links">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    
+      <div class="student-card">
+        <img src="https://randomuser.me/api/portraits/men/40.jpg" alt="Student Photo" class="profile-pic"/>
+        <div class="student-info">
+          <h3>Aarav Sharma</h3>
+          <div class="college">KL University</div>
+          <div class="details"><i class="fa fa-envelope"></i> aarav.sharma40@email.com</div>
+          <div class="details"><i class="fa fa-phone"></i> 9000000040</div>
+          <div class="details"><i class="fa fa-mars"></i> Male</div>
+          <div class="details"><i class="fa fa-calendar"></i> 13/05/2000</div>
+        </div>
+        <div class="links">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    
+      <div class="student-card">
+        <img src="https://randomuser.me/api/portraits/women/41.jpg" alt="Student Photo" class="profile-pic"/>
+        <div class="student-info">
+          <h3>Isha Verma</h3>
+          <div class="college">Anna University</div>
+          <div class="details"><i class="fa fa-envelope"></i> isha.verma41@email.com</div>
+          <div class="details"><i class="fa fa-phone"></i> 9000000041</div>
+          <div class="details"><i class="fa fa-venus"></i> Female</div>
+          <div class="details"><i class="fa fa-calendar"></i> 14/06/2001</div>
+        </div>
+        <div class="links">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    
+      <div class="student-card">
+        <img src="https://randomuser.me/api/portraits/men/42.jpg" alt="Student Photo" class="profile-pic"/>
+        <div class="student-info">
+          <h3>Aditya Reddy</h3>
+          <div class="college">IIT Bombay</div>
+          <div class="details"><i class="fa fa-envelope"></i> aditya.reddy42@email.com</div>
+          <div class="details"><i class="fa fa-phone"></i> 9000000042</div>
+          <div class="details"><i class="fa fa-mars"></i> Male</div>
+          <div class="details"><i class="fa fa-calendar"></i> 15/07/2002</div>
+        </div>
+        <div class="links">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    
+      <div class="student-card">
+        <img src="https://randomuser.me/api/portraits/women/43.jpg" alt="Student Photo" class="profile-pic"/>
+        <div class="student-info">
+          <h3>Priya Patel</h3>
+          <div class="college">NIT Trichy</div>
+          <div class="details"><i class="fa fa-envelope"></i> priya.patel43@email.com</div>
+          <div class="details"><i class="fa fa-phone"></i> 9000000043</div>
+          <div class="details"><i class="fa fa-venus"></i> Female</div>
+          <div class="details"><i class="fa fa-calendar"></i> 16/08/2003</div>
+        </div>
+        <div class="links">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    
+      <div class="student-card">
+        <img src="https://randomuser.me/api/portraits/men/44.jpg" alt="Student Photo" class="profile-pic"/>
+        <div class="student-info">
+          <h3>Arjun Mehta</h3>
+          <div class="college">BITS Pilani</div>
+          <div class="details"><i class="fa fa-envelope"></i> arjun.mehta44@email.com</div>
+          <div class="details"><i class="fa fa-phone"></i> 9000000044</div>
+          <div class="details"><i class="fa fa-mars"></i> Male</div>
+          <div class="details"><i class="fa fa-calendar"></i> 17/09/2004</div>
+        </div>
+        <div class="links">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    
+      <div class="student-card">
+        <img src="https://randomuser.me/api/portraits/women/45.jpg" alt="Student Photo" class="profile-pic"/>
+        <div class="student-info">
+          <h3>Tanya Gupta</h3>
+          <div class="college">GATES INSTITUTE OF TECHNOLOGY</div>
+          <div class="details"><i class="fa fa-envelope"></i> tanya.gupta45@email.com</div>
+          <div class="details"><i class="fa fa-phone"></i> 9000000045</div>
+          <div class="details"><i class="fa fa-venus"></i> Female</div>
+          <div class="details"><i class="fa fa-calendar"></i> 18/01/2005</div>
+        </div>
+        <div class="links">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    
+      <div class="student-card">
+        <img src="https://randomuser.me/api/portraits/men/46.jpg" alt="Student Photo" class="profile-pic"/>
+        <div class="student-info">
+          <h3>Rahul Kumar</h3>
+          <div class="college">KL University</div>
+          <div class="details"><i class="fa fa-envelope"></i> rahul.kumar46@email.com</div>
+          <div class="details"><i class="fa fa-phone"></i> 9000000046</div>
+          <div class="details"><i class="fa fa-mars"></i> Male</div>
+          <div class="details"><i class="fa fa-calendar"></i> 19/02/2006</div>
+        </div>
+        <div class="links">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    
+      <div class="student-card">
+        <img src="https://randomuser.me/api/portraits/women/47.jpg" alt="Student Photo" class="profile-pic"/>
+        <div class="student-info">
+          <h3>Divya Rao</h3>
+          <div class="college">Anna University</div>
+          <div class="details"><i class="fa fa-envelope"></i> divya.rao47@email.com</div>
+          <div class="details"><i class="fa fa-phone"></i> 9000000047</div>
+          <div class="details"><i class="fa fa-venus"></i> Female</div>
+          <div class="details"><i class="fa fa-calendar"></i> 20/03/2007</div>
+        </div>
+        <div class="links">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    
+      <div class="student-card">
+        <img src="https://randomuser.me/api/portraits/men/48.jpg" alt="Student Photo" class="profile-pic"/>
+        <div class="student-info">
+          <h3>Yash Nair</h3>
+          <div class="college">IIT Bombay</div>
+          <div class="details"><i class="fa fa-envelope"></i> yash.nair48@email.com</div>
+          <div class="details"><i class="fa fa-phone"></i> 9000000048</div>
+          <div class="details"><i class="fa fa-mars"></i> Male</div>
+          <div class="details"><i class="fa fa-calendar"></i> 21/04/2008</div>
+        </div>
+        <div class="links">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    
+      <div class="student-card">
+        <img src="https://randomuser.me/api/portraits/women/49.jpg" alt="Student Photo" class="profile-pic"/>
+        <div class="student-info">
+          <h3>Ritika Das</h3>
+          <div class="college">NIT Trichy</div>
+          <div class="details"><i class="fa fa-envelope"></i> ritika.das49@email.com</div>
+          <div class="details"><i class="fa fa-phone"></i> 9000000049</div>
+          <div class="details"><i class="fa fa-venus"></i> Female</div>
+          <div class="details"><i class="fa fa-calendar"></i> 22/05/2009</div>
+        </div>
+        <div class="links">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    
+      <div class="student-card">
+        <img src="https://randomuser.me/api/portraits/men/50.jpg" alt="Student Photo" class="profile-pic"/>
+        <div class="student-info">
+          <h3>Aarav Sharma</h3>
+          <div class="college">BITS Pilani</div>
+          <div class="details"><i class="fa fa-envelope"></i> aarav.sharma50@email.com</div>
+          <div class="details"><i class="fa fa-phone"></i> 9000000050</div>
+          <div class="details"><i class="fa fa-mars"></i> Male</div>
+          <div class="details"><i class="fa fa-calendar"></i> 23/06/2000</div>
+        </div>
+        <div class="links">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    
+      <div class="student-card">
+        <img src="https://randomuser.me/api/portraits/women/51.jpg" alt="Student Photo" class="profile-pic"/>
+        <div class="student-info">
+          <h3>Isha Verma</h3>
+          <div class="college">GATES INSTITUTE OF TECHNOLOGY</div>
+          <div class="details"><i class="fa fa-envelope"></i> isha.verma51@email.com</div>
+          <div class="details"><i class="fa fa-phone"></i> 9000000051</div>
+          <div class="details"><i class="fa fa-venus"></i> Female</div>
+          <div class="details"><i class="fa fa-calendar"></i> 24/07/2001</div>
+        </div>
+        <div class="links">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    
+      <div class="student-card">
+        <img src="https://randomuser.me/api/portraits/men/52.jpg" alt="Student Photo" class="profile-pic"/>
+        <div class="student-info">
+          <h3>Aditya Reddy</h3>
+          <div class="college">KL University</div>
+          <div class="details"><i class="fa fa-envelope"></i> aditya.reddy52@email.com</div>
+          <div class="details"><i class="fa fa-phone"></i> 9000000052</div>
+          <div class="details"><i class="fa fa-mars"></i> Male</div>
+          <div class="details"><i class="fa fa-calendar"></i> 25/08/2002</div>
+        </div>
+        <div class="links">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    
+      <div class="student-card">
+        <img src="https://randomuser.me/api/portraits/women/53.jpg" alt="Student Photo" class="profile-pic"/>
+        <div class="student-info">
+          <h3>Priya Patel</h3>
+          <div class="college">Anna University</div>
+          <div class="details"><i class="fa fa-envelope"></i> priya.patel53@email.com</div>
+          <div class="details"><i class="fa fa-phone"></i> 9000000053</div>
+          <div class="details"><i class="fa fa-venus"></i> Female</div>
+          <div class="details"><i class="fa fa-calendar"></i> 26/09/2003</div>
+        </div>
+        <div class="links">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    
+      <div class="student-card">
+        <img src="https://randomuser.me/api/portraits/men/54.jpg" alt="Student Photo" class="profile-pic"/>
+        <div class="student-info">
+          <h3>Arjun Mehta</h3>
+          <div class="college">IIT Bombay</div>
+          <div class="details"><i class="fa fa-envelope"></i> arjun.mehta54@email.com</div>
+          <div class="details"><i class="fa fa-phone"></i> 9000000054</div>
+          <div class="details"><i class="fa fa-mars"></i> Male</div>
+          <div class="details"><i class="fa fa-calendar"></i> 27/01/2004</div>
+        </div>
+        <div class="links">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    
+      <div class="student-card">
+        <img src="https://randomuser.me/api/portraits/women/55.jpg" alt="Student Photo" class="profile-pic"/>
+        <div class="student-info">
+          <h3>Tanya Gupta</h3>
+          <div class="college">NIT Trichy</div>
+          <div class="details"><i class="fa fa-envelope"></i> tanya.gupta55@email.com</div>
+          <div class="details"><i class="fa fa-phone"></i> 9000000055</div>
+          <div class="details"><i class="fa fa-venus"></i> Female</div>
+          <div class="details"><i class="fa fa-calendar"></i> 28/02/2005</div>
+        </div>
+        <div class="links">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    
+      <div class="student-card">
+        <img src="https://randomuser.me/api/portraits/men/56.jpg" alt="Student Photo" class="profile-pic"/>
+        <div class="student-info">
+          <h3>Rahul Kumar</h3>
+          <div class="college">BITS Pilani</div>
+          <div class="details"><i class="fa fa-envelope"></i> rahul.kumar56@email.com</div>
+          <div class="details"><i class="fa fa-phone"></i> 9000000056</div>
+          <div class="details"><i class="fa fa-mars"></i> Male</div>
+          <div class="details"><i class="fa fa-calendar"></i> 01/03/2006</div>
+        </div>
+        <div class="links">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    
+      <div class="student-card">
+        <img src="https://randomuser.me/api/portraits/women/57.jpg" alt="Student Photo" class="profile-pic"/>
+        <div class="student-info">
+          <h3>Divya Rao</h3>
+          <div class="college">GATES INSTITUTE OF TECHNOLOGY</div>
+          <div class="details"><i class="fa fa-envelope"></i> divya.rao57@email.com</div>
+          <div class="details"><i class="fa fa-phone"></i> 9000000057</div>
+          <div class="details"><i class="fa fa-venus"></i> Female</div>
+          <div class="details"><i class="fa fa-calendar"></i> 02/04/2007</div>
+        </div>
+        <div class="links">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    
+      <div class="student-card">
+        <img src="https://randomuser.me/api/portraits/men/58.jpg" alt="Student Photo" class="profile-pic"/>
+        <div class="student-info">
+          <h3>Yash Nair</h3>
+          <div class="college">KL University</div>
+          <div class="details"><i class="fa fa-envelope"></i> yash.nair58@email.com</div>
+          <div class="details"><i class="fa fa-phone"></i> 9000000058</div>
+          <div class="details"><i class="fa fa-mars"></i> Male</div>
+          <div class="details"><i class="fa fa-calendar"></i> 03/05/2008</div>
+        </div>
+        <div class="links">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    
+      <div class="student-card">
+        <img src="https://randomuser.me/api/portraits/women/59.jpg" alt="Student Photo" class="profile-pic"/>
+        <div class="student-info">
+          <h3>Ritika Das</h3>
+          <div class="college">Anna University</div>
+          <div class="details"><i class="fa fa-envelope"></i> ritika.das59@email.com</div>
+          <div class="details"><i class="fa fa-phone"></i> 9000000059</div>
+          <div class="details"><i class="fa fa-venus"></i> Female</div>
+          <div class="details"><i class="fa fa-calendar"></i> 04/06/2009</div>
+        </div>
+        <div class="links">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    
+      <div class="student-card">
+        <img src="https://randomuser.me/api/portraits/men/60.jpg" alt="Student Photo" class="profile-pic"/>
+        <div class="student-info">
+          <h3>Aarav Sharma</h3>
+          <div class="college">IIT Bombay</div>
+          <div class="details"><i class="fa fa-envelope"></i> aarav.sharma60@email.com</div>
+          <div class="details"><i class="fa fa-phone"></i> 9000000060</div>
+          <div class="details"><i class="fa fa-mars"></i> Male</div>
+          <div class="details"><i class="fa fa-calendar"></i> 05/07/2000</div>
+        </div>
+        <div class="links">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    
+      <div class="student-card">
+        <img src="https://randomuser.me/api/portraits/women/61.jpg" alt="Student Photo" class="profile-pic"/>
+        <div class="student-info">
+          <h3>Isha Verma</h3>
+          <div class="college">NIT Trichy</div>
+          <div class="details"><i class="fa fa-envelope"></i> isha.verma61@email.com</div>
+          <div class="details"><i class="fa fa-phone"></i> 9000000061</div>
+          <div class="details"><i class="fa fa-venus"></i> Female</div>
+          <div class="details"><i class="fa fa-calendar"></i> 06/08/2001</div>
+        </div>
+        <div class="links">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    
+      <div class="student-card">
+        <img src="https://randomuser.me/api/portraits/men/62.jpg" alt="Student Photo" class="profile-pic"/>
+        <div class="student-info">
+          <h3>Aditya Reddy</h3>
+          <div class="college">BITS Pilani</div>
+          <div class="details"><i class="fa fa-envelope"></i> aditya.reddy62@email.com</div>
+          <div class="details"><i class="fa fa-phone"></i> 9000000062</div>
+          <div class="details"><i class="fa fa-mars"></i> Male</div>
+          <div class="details"><i class="fa fa-calendar"></i> 07/09/2002</div>
+        </div>
+        <div class="links">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    
+      <div class="student-card">
+        <img src="https://randomuser.me/api/portraits/women/63.jpg" alt="Student Photo" class="profile-pic"/>
+        <div class="student-info">
+          <h3>Priya Patel</h3>
+          <div class="college">GATES INSTITUTE OF TECHNOLOGY</div>
+          <div class="details"><i class="fa fa-envelope"></i> priya.patel63@email.com</div>
+          <div class="details"><i class="fa fa-phone"></i> 9000000063</div>
+          <div class="details"><i class="fa fa-venus"></i> Female</div>
+          <div class="details"><i class="fa fa-calendar"></i> 08/01/2003</div>
+        </div>
+        <div class="links">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    
+      <div class="student-card">
+        <img src="https://randomuser.me/api/portraits/men/64.jpg" alt="Student Photo" class="profile-pic"/>
+        <div class="student-info">
+          <h3>Arjun Mehta</h3>
+          <div class="college">KL University</div>
+          <div class="details"><i class="fa fa-envelope"></i> arjun.mehta64@email.com</div>
+          <div class="details"><i class="fa fa-phone"></i> 9000000064</div>
+          <div class="details"><i class="fa fa-mars"></i> Male</div>
+          <div class="details"><i class="fa fa-calendar"></i> 09/02/2004</div>
+        </div>
+        <div class="links">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    
+      <div class="student-card">
+        <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="Student Photo" class="profile-pic"/>
+        <div class="student-info">
+          <h3>Tanya Gupta</h3>
+          <div class="college">Anna University</div>
+          <div class="details"><i class="fa fa-envelope"></i> tanya.gupta65@email.com</div>
+          <div class="details"><i class="fa fa-phone"></i> 9000000065</div>
+          <div class="details"><i class="fa fa-venus"></i> Female</div>
+          <div class="details"><i class="fa fa-calendar"></i> 10/03/2005</div>
+        </div>
+        <div class="links">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    
+      <div class="student-card">
+        <img src="https://randomuser.me/api/portraits/men/66.jpg" alt="Student Photo" class="profile-pic"/>
+        <div class="student-info">
+          <h3>Rahul Kumar</h3>
+          <div class="college">IIT Bombay</div>
+          <div class="details"><i class="fa fa-envelope"></i> rahul.kumar66@email.com</div>
+          <div class="details"><i class="fa fa-phone"></i> 9000000066</div>
+          <div class="details"><i class="fa fa-mars"></i> Male</div>
+          <div class="details"><i class="fa fa-calendar"></i> 11/04/2006</div>
+        </div>
+        <div class="links">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    
+      <div class="student-card">
+        <img src="https://randomuser.me/api/portraits/women/67.jpg" alt="Student Photo" class="profile-pic"/>
+        <div class="student-info">
+          <h3>Divya Rao</h3>
+          <div class="college">NIT Trichy</div>
+          <div class="details"><i class="fa fa-envelope"></i> divya.rao67@email.com</div>
+          <div class="details"><i class="fa fa-phone"></i> 9000000067</div>
+          <div class="details"><i class="fa fa-venus"></i> Female</div>
+          <div class="details"><i class="fa fa-calendar"></i> 12/05/2007</div>
+        </div>
+        <div class="links">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    
+      <div class="student-card">
+        <img src="https://randomuser.me/api/portraits/men/68.jpg" alt="Student Photo" class="profile-pic"/>
+        <div class="student-info">
+          <h3>Yash Nair</h3>
+          <div class="college">BITS Pilani</div>
+          <div class="details"><i class="fa fa-envelope"></i> yash.nair68@email.com</div>
+          <div class="details"><i class="fa fa-phone"></i> 9000000068</div>
+          <div class="details"><i class="fa fa-mars"></i> Male</div>
+          <div class="details"><i class="fa fa-calendar"></i> 13/06/2008</div>
+        </div>
+        <div class="links">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    
+      <div class="student-card">
+        <img src="https://randomuser.me/api/portraits/women/69.jpg" alt="Student Photo" class="profile-pic"/>
+        <div class="student-info">
+          <h3>Ritika Das</h3>
+          <div class="college">GATES INSTITUTE OF TECHNOLOGY</div>
+          <div class="details"><i class="fa fa-envelope"></i> ritika.das69@email.com</div>
+          <div class="details"><i class="fa fa-phone"></i> 9000000069</div>
+          <div class="details"><i class="fa fa-venus"></i> Female</div>
+          <div class="details"><i class="fa fa-calendar"></i> 14/07/2009</div>
+        </div>
+        <div class="links">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    
+      <div class="student-card">
+        <img src="https://randomuser.me/api/portraits/men/70.jpg" alt="Student Photo" class="profile-pic"/>
+        <div class="student-info">
+          <h3>Aarav Sharma</h3>
+          <div class="college">KL University</div>
+          <div class="details"><i class="fa fa-envelope"></i> aarav.sharma70@email.com</div>
+          <div class="details"><i class="fa fa-phone"></i> 9000000070</div>
+          <div class="details"><i class="fa fa-mars"></i> Male</div>
+          <div class="details"><i class="fa fa-calendar"></i> 15/08/2000</div>
+        </div>
+        <div class="links">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    
+      <div class="student-card">
+        <img src="https://randomuser.me/api/portraits/women/71.jpg" alt="Student Photo" class="profile-pic"/>
+        <div class="student-info">
+          <h3>Isha Verma</h3>
+          <div class="college">Anna University</div>
+          <div class="details"><i class="fa fa-envelope"></i> isha.verma71@email.com</div>
+          <div class="details"><i class="fa fa-phone"></i> 9000000071</div>
+          <div class="details"><i class="fa fa-venus"></i> Female</div>
+          <div class="details"><i class="fa fa-calendar"></i> 16/09/2001</div>
+        </div>
+        <div class="links">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    
+      <div class="student-card">
+        <img src="https://randomuser.me/api/portraits/men/72.jpg" alt="Student Photo" class="profile-pic"/>
+        <div class="student-info">
+          <h3>Aditya Reddy</h3>
+          <div class="college">IIT Bombay</div>
+          <div class="details"><i class="fa fa-envelope"></i> aditya.reddy72@email.com</div>
+          <div class="details"><i class="fa fa-phone"></i> 9000000072</div>
+          <div class="details"><i class="fa fa-mars"></i> Male</div>
+          <div class="details"><i class="fa fa-calendar"></i> 17/01/2002</div>
+        </div>
+        <div class="links">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    
+      <div class="student-card">
+        <img src="https://randomuser.me/api/portraits/women/73.jpg" alt="Student Photo" class="profile-pic"/>
+        <div class="student-info">
+          <h3>Priya Patel</h3>
+          <div class="college">NIT Trichy</div>
+          <div class="details"><i class="fa fa-envelope"></i> priya.patel73@email.com</div>
+          <div class="details"><i class="fa fa-phone"></i> 9000000073</div>
+          <div class="details"><i class="fa fa-venus"></i> Female</div>
+          <div class="details"><i class="fa fa-calendar"></i> 18/02/2003</div>
+        </div>
+        <div class="links">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    
+      <div class="student-card">
+        <img src="https://randomuser.me/api/portraits/men/74.jpg" alt="Student Photo" class="profile-pic"/>
+        <div class="student-info">
+          <h3>Arjun Mehta</h3>
+          <div class="college">BITS Pilani</div>
+          <div class="details"><i class="fa fa-envelope"></i> arjun.mehta74@email.com</div>
+          <div class="details"><i class="fa fa-phone"></i> 9000000074</div>
+          <div class="details"><i class="fa fa-mars"></i> Male</div>
+          <div class="details"><i class="fa fa-calendar"></i> 19/03/2004</div>
+        </div>
+        <div class="links">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    
+      <div class="student-card">
+        <img src="https://randomuser.me/api/portraits/women/75.jpg" alt="Student Photo" class="profile-pic"/>
+        <div class="student-info">
+          <h3>Tanya Gupta</h3>
+          <div class="college">GATES INSTITUTE OF TECHNOLOGY</div>
+          <div class="details"><i class="fa fa-envelope"></i> tanya.gupta75@email.com</div>
+          <div class="details"><i class="fa fa-phone"></i> 9000000075</div>
+          <div class="details"><i class="fa fa-venus"></i> Female</div>
+          <div class="details"><i class="fa fa-calendar"></i> 20/04/2005</div>
+        </div>
+        <div class="links">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    
+      <div class="student-card">
+        <img src="https://randomuser.me/api/portraits/men/76.jpg" alt="Student Photo" class="profile-pic"/>
+        <div class="student-info">
+          <h3>Rahul Kumar</h3>
+          <div class="college">KL University</div>
+          <div class="details"><i class="fa fa-envelope"></i> rahul.kumar76@email.com</div>
+          <div class="details"><i class="fa fa-phone"></i> 9000000076</div>
+          <div class="details"><i class="fa fa-mars"></i> Male</div>
+          <div class="details"><i class="fa fa-calendar"></i> 21/05/2006</div>
+        </div>
+        <div class="links">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    
+      <div class="student-card">
+        <img src="https://randomuser.me/api/portraits/women/77.jpg" alt="Student Photo" class="profile-pic"/>
+        <div class="student-info">
+          <h3>Divya Rao</h3>
+          <div class="college">Anna University</div>
+          <div class="details"><i class="fa fa-envelope"></i> divya.rao77@email.com</div>
+          <div class="details"><i class="fa fa-phone"></i> 9000000077</div>
+          <div class="details"><i class="fa fa-venus"></i> Female</div>
+          <div class="details"><i class="fa fa-calendar"></i> 22/06/2007</div>
+        </div>
+        <div class="links">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    
+      <div class="student-card">
+        <img src="https://randomuser.me/api/portraits/men/78.jpg" alt="Student Photo" class="profile-pic"/>
+        <div class="student-info">
+          <h3>Yash Nair</h3>
+          <div class="college">IIT Bombay</div>
+          <div class="details"><i class="fa fa-envelope"></i> yash.nair78@email.com</div>
+          <div class="details"><i class="fa fa-phone"></i> 9000000078</div>
+          <div class="details"><i class="fa fa-mars"></i> Male</div>
+          <div class="details"><i class="fa fa-calendar"></i> 23/07/2008</div>
+        </div>
+        <div class="links">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    
+      <div class="student-card">
+        <img src="https://randomuser.me/api/portraits/women/79.jpg" alt="Student Photo" class="profile-pic"/>
+        <div class="student-info">
+          <h3>Ritika Das</h3>
+          <div class="college">NIT Trichy</div>
+          <div class="details"><i class="fa fa-envelope"></i> ritika.das79@email.com</div>
+          <div class="details"><i class="fa fa-phone"></i> 9000000079</div>
+          <div class="details"><i class="fa fa-venus"></i> Female</div>
+          <div class="details"><i class="fa fa-calendar"></i> 24/08/2009</div>
+        </div>
+        <div class="links">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    
+      <div class="student-card">
+        <img src="https://randomuser.me/api/portraits/men/80.jpg" alt="Student Photo" class="profile-pic"/>
+        <div class="student-info">
+          <h3>Aarav Sharma</h3>
+          <div class="college">BITS Pilani</div>
+          <div class="details"><i class="fa fa-envelope"></i> aarav.sharma80@email.com</div>
+          <div class="details"><i class="fa fa-phone"></i> 9000000080</div>
+          <div class="details"><i class="fa fa-mars"></i> Male</div>
+          <div class="details"><i class="fa fa-calendar"></i> 25/09/2000</div>
+        </div>
+        <div class="links">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    
+      <div class="student-card">
+        <img src="https://randomuser.me/api/portraits/women/81.jpg" alt="Student Photo" class="profile-pic"/>
+        <div class="student-info">
+          <h3>Isha Verma</h3>
+          <div class="college">GATES INSTITUTE OF TECHNOLOGY</div>
+          <div class="details"><i class="fa fa-envelope"></i> isha.verma81@email.com</div>
+          <div class="details"><i class="fa fa-phone"></i> 9000000081</div>
+          <div class="details"><i class="fa fa-venus"></i> Female</div>
+          <div class="details"><i class="fa fa-calendar"></i> 26/01/2001</div>
+        </div>
+        <div class="links">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    
+      <div class="student-card">
+        <img src="https://randomuser.me/api/portraits/men/82.jpg" alt="Student Photo" class="profile-pic"/>
+        <div class="student-info">
+          <h3>Aditya Reddy</h3>
+          <div class="college">KL University</div>
+          <div class="details"><i class="fa fa-envelope"></i> aditya.reddy82@email.com</div>
+          <div class="details"><i class="fa fa-phone"></i> 9000000082</div>
+          <div class="details"><i class="fa fa-mars"></i> Male</div>
+          <div class="details"><i class="fa fa-calendar"></i> 27/02/2002</div>
+        </div>
+        <div class="links">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    
+      <div class="student-card">
+        <img src="https://randomuser.me/api/portraits/women/83.jpg" alt="Student Photo" class="profile-pic"/>
+        <div class="student-info">
+          <h3>Priya Patel</h3>
+          <div class="college">Anna University</div>
+          <div class="details"><i class="fa fa-envelope"></i> priya.patel83@email.com</div>
+          <div class="details"><i class="fa fa-phone"></i> 9000000083</div>
+          <div class="details"><i class="fa fa-venus"></i> Female</div>
+          <div class="details"><i class="fa fa-calendar"></i> 28/03/2003</div>
+        </div>
+        <div class="links">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    
+      <div class="student-card">
+        <img src="https://randomuser.me/api/portraits/men/84.jpg" alt="Student Photo" class="profile-pic"/>
+        <div class="student-info">
+          <h3>Arjun Mehta</h3>
+          <div class="college">IIT Bombay</div>
+          <div class="details"><i class="fa fa-envelope"></i> arjun.mehta84@email.com</div>
+          <div class="details"><i class="fa fa-phone"></i> 9000000084</div>
+          <div class="details"><i class="fa fa-mars"></i> Male</div>
+          <div class="details"><i class="fa fa-calendar"></i> 01/04/2004</div>
+        </div>
+        <div class="links">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    
+      <div class="student-card">
+        <img src="https://randomuser.me/api/portraits/women/85.jpg" alt="Student Photo" class="profile-pic"/>
+        <div class="student-info">
+          <h3>Tanya Gupta</h3>
+          <div class="college">NIT Trichy</div>
+          <div class="details"><i class="fa fa-envelope"></i> tanya.gupta85@email.com</div>
+          <div class="details"><i class="fa fa-phone"></i> 9000000085</div>
+          <div class="details"><i class="fa fa-venus"></i> Female</div>
+          <div class="details"><i class="fa fa-calendar"></i> 02/05/2005</div>
+        </div>
+        <div class="links">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    
+      <div class="student-card">
+        <img src="https://randomuser.me/api/portraits/men/86.jpg" alt="Student Photo" class="profile-pic"/>
+        <div class="student-info">
+          <h3>Rahul Kumar</h3>
+          <div class="college">BITS Pilani</div>
+          <div class="details"><i class="fa fa-envelope"></i> rahul.kumar86@email.com</div>
+          <div class="details"><i class="fa fa-phone"></i> 9000000086</div>
+          <div class="details"><i class="fa fa-mars"></i> Male</div>
+          <div class="details"><i class="fa fa-calendar"></i> 03/06/2006</div>
+        </div>
+        <div class="links">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    
+      <div class="student-card">
+        <img src="https://randomuser.me/api/portraits/women/87.jpg" alt="Student Photo" class="profile-pic"/>
+        <div class="student-info">
+          <h3>Divya Rao</h3>
+          <div class="college">GATES INSTITUTE OF TECHNOLOGY</div>
+          <div class="details"><i class="fa fa-envelope"></i> divya.rao87@email.com</div>
+          <div class="details"><i class="fa fa-phone"></i> 9000000087</div>
+          <div class="details"><i class="fa fa-venus"></i> Female</div>
+          <div class="details"><i class="fa fa-calendar"></i> 04/07/2007</div>
+        </div>
+        <div class="links">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    
+      <div class="student-card">
+        <img src="https://randomuser.me/api/portraits/men/88.jpg" alt="Student Photo" class="profile-pic"/>
+        <div class="student-info">
+          <h3>Yash Nair</h3>
+          <div class="college">KL University</div>
+          <div class="details"><i class="fa fa-envelope"></i> yash.nair88@email.com</div>
+          <div class="details"><i class="fa fa-phone"></i> 9000000088</div>
+          <div class="details"><i class="fa fa-mars"></i> Male</div>
+          <div class="details"><i class="fa fa-calendar"></i> 05/08/2008</div>
+        </div>
+        <div class="links">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    
+      <div class="student-card">
+        <img src="https://randomuser.me/api/portraits/women/89.jpg" alt="Student Photo" class="profile-pic"/>
+        <div class="student-info">
+          <h3>Ritika Das</h3>
+          <div class="college">Anna University</div>
+          <div class="details"><i class="fa fa-envelope"></i> ritika.das89@email.com</div>
+          <div class="details"><i class="fa fa-phone"></i> 9000000089</div>
+          <div class="details"><i class="fa fa-venus"></i> Female</div>
+          <div class="details"><i class="fa fa-calendar"></i> 06/09/2009</div>
+        </div>
+        <div class="links">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    
+      <div class="student-card">
+        <img src="https://randomuser.me/api/portraits/men/90.jpg" alt="Student Photo" class="profile-pic"/>
+        <div class="student-info">
+          <h3>Aarav Sharma</h3>
+          <div class="college">IIT Bombay</div>
+          <div class="details"><i class="fa fa-envelope"></i> aarav.sharma90@email.com</div>
+          <div class="details"><i class="fa fa-phone"></i> 9000000090</div>
+          <div class="details"><i class="fa fa-mars"></i> Male</div>
+          <div class="details"><i class="fa fa-calendar"></i> 07/01/2000</div>
+        </div>
+        <div class="links">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    
+      <div class="student-card">
+        <img src="https://randomuser.me/api/portraits/women/91.jpg" alt="Student Photo" class="profile-pic"/>
+        <div class="student-info">
+          <h3>Isha Verma</h3>
+          <div class="college">NIT Trichy</div>
+          <div class="details"><i class="fa fa-envelope"></i> isha.verma91@email.com</div>
+          <div class="details"><i class="fa fa-phone"></i> 9000000091</div>
+          <div class="details"><i class="fa fa-venus"></i> Female</div>
+          <div class="details"><i class="fa fa-calendar"></i> 08/02/2001</div>
+        </div>
+        <div class="links">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    
+      <div class="student-card">
+        <img src="https://randomuser.me/api/portraits/men/92.jpg" alt="Student Photo" class="profile-pic"/>
+        <div class="student-info">
+          <h3>Aditya Reddy</h3>
+          <div class="college">BITS Pilani</div>
+          <div class="details"><i class="fa fa-envelope"></i> aditya.reddy92@email.com</div>
+          <div class="details"><i class="fa fa-phone"></i> 9000000092</div>
+          <div class="details"><i class="fa fa-mars"></i> Male</div>
+          <div class="details"><i class="fa fa-calendar"></i> 09/03/2002</div>
+        </div>
+        <div class="links">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    
+      <div class="student-card">
+        <img src="https://randomuser.me/api/portraits/women/93.jpg" alt="Student Photo" class="profile-pic"/>
+        <div class="student-info">
+          <h3>Priya Patel</h3>
+          <div class="college">GATES INSTITUTE OF TECHNOLOGY</div>
+          <div class="details"><i class="fa fa-envelope"></i> priya.patel93@email.com</div>
+          <div class="details"><i class="fa fa-phone"></i> 9000000093</div>
+          <div class="details"><i class="fa fa-venus"></i> Female</div>
+          <div class="details"><i class="fa fa-calendar"></i> 10/04/2003</div>
+        </div>
+        <div class="links">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    
+      <div class="student-card">
+        <img src="https://randomuser.me/api/portraits/men/94.jpg" alt="Student Photo" class="profile-pic"/>
+        <div class="student-info">
+          <h3>Arjun Mehta</h3>
+          <div class="college">KL University</div>
+          <div class="details"><i class="fa fa-envelope"></i> arjun.mehta94@email.com</div>
+          <div class="details"><i class="fa fa-phone"></i> 9000000094</div>
+          <div class="details"><i class="fa fa-mars"></i> Male</div>
+          <div class="details"><i class="fa fa-calendar"></i> 11/05/2004</div>
+        </div>
+        <div class="links">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    
+      <div class="student-card">
+        <img src="https://randomuser.me/api/portraits/women/95.jpg" alt="Student Photo" class="profile-pic"/>
+        <div class="student-info">
+          <h3>Tanya Gupta</h3>
+          <div class="college">Anna University</div>
+          <div class="details"><i class="fa fa-envelope"></i> tanya.gupta95@email.com</div>
+          <div class="details"><i class="fa fa-phone"></i> 9000000095</div>
+          <div class="details"><i class="fa fa-venus"></i> Female</div>
+          <div class="details"><i class="fa fa-calendar"></i> 12/06/2005</div>
+        </div>
+        <div class="links">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    
+      <div class="student-card">
+        <img src="https://randomuser.me/api/portraits/men/96.jpg" alt="Student Photo" class="profile-pic"/>
+        <div class="student-info">
+          <h3>Rahul Kumar</h3>
+          <div class="college">IIT Bombay</div>
+          <div class="details"><i class="fa fa-envelope"></i> rahul.kumar96@email.com</div>
+          <div class="details"><i class="fa fa-phone"></i> 9000000096</div>
+          <div class="details"><i class="fa fa-mars"></i> Male</div>
+          <div class="details"><i class="fa fa-calendar"></i> 13/07/2006</div>
+        </div>
+        <div class="links">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    
+      <div class="student-card">
+        <img src="https://randomuser.me/api/portraits/women/97.jpg" alt="Student Photo" class="profile-pic"/>
+        <div class="student-info">
+          <h3>Divya Rao</h3>
+          <div class="college">NIT Trichy</div>
+          <div class="details"><i class="fa fa-envelope"></i> divya.rao97@email.com</div>
+          <div class="details"><i class="fa fa-phone"></i> 9000000097</div>
+          <div class="details"><i class="fa fa-venus"></i> Female</div>
+          <div class="details"><i class="fa fa-calendar"></i> 14/08/2007</div>
+        </div>
+        <div class="links">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    
+      <div class="student-card">
+        <img src="https://randomuser.me/api/portraits/men/98.jpg" alt="Student Photo" class="profile-pic"/>
+        <div class="student-info">
+          <h3>Yash Nair</h3>
+          <div class="college">BITS Pilani</div>
+          <div class="details"><i class="fa fa-envelope"></i> yash.nair98@email.com</div>
+          <div class="details"><i class="fa fa-phone"></i> 9000000098</div>
+          <div class="details"><i class="fa fa-mars"></i> Male</div>
+          <div class="details"><i class="fa fa-calendar"></i> 15/09/2008</div>
+        </div>
+        <div class="links">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    
+      <div class="student-card">
+        <img src="https://randomuser.me/api/portraits/women/99.jpg" alt="Student Photo" class="profile-pic"/>
+        <div class="student-info">
+          <h3>Ritika Das</h3>
+          <div class="college">GATES INSTITUTE OF TECHNOLOGY</div>
+          <div class="details"><i class="fa fa-envelope"></i> ritika.das99@email.com</div>
+          <div class="details"><i class="fa fa-phone"></i> 9000000099</div>
+          <div class="details"><i class="fa fa-venus"></i> Female</div>
+          <div class="details"><i class="fa fa-calendar"></i> 16/01/2009</div>
+        </div>
+        <div class="links">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    
+      <div class="student-card">
+        <img src="https://randomuser.me/api/portraits/men/0.jpg" alt="Student Photo" class="profile-pic"/>
+        <div class="student-info">
+          <h3>Aarav Sharma</h3>
+          <div class="college">KL University</div>
+          <div class="details"><i class="fa fa-envelope"></i> aarav.sharma100@email.com</div>
+          <div class="details"><i class="fa fa-phone"></i> 9000000100</div>
+          <div class="details"><i class="fa fa-mars"></i> Male</div>
+          <div class="details"><i class="fa fa-calendar"></i> 17/02/2000</div>
+        </div>
+        <div class="links">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    
+    </div>
+  </div>
+</body>
+</html>

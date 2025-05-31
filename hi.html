@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="otp.js"></script>
+</head>
+<body>
+<div id="cc">
+        <h1>Kodenest</h1>
+    <nav id="nav">
+        <a href="home.html">Home</a>
+        <a href="2.html">our students</a>
+        <a href="hi.html">login</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</div>
+<div id="otp">
+<div id="hi">
+    <legend>Welcome to kodenest</legend>
+    <h2>Hello, my dear! Welcome to Kodenest. Please enter your details below.</h2>
+
+        <label for="firstname">First Name</label>
+        <input type="text" id="firstname"  placeholder="Enter your first name"/><br>
+        <label for="lastname">Last Name</label>
+        <input type="text" id="lastname"  placeholder="Enter your last name"/><br>
+        <label for="email">Email</label>
+        <input type="email" id="email"  placeholder="Enter your email"/><br>
+        <label for="password">Password</label>
+        <input type="password" id="password"  placeholder="Enter your password"/><br>
+        <label for="mobilenumber">Mobile</label>
+        <input type="tel" id="mobilenumber"  placeholder="Enter your mobile number"/><br>
+        <button onclick="sendotp(event)">Send OTP</button><br>
+        <p> OTP IS <p id="he"> </p></p>
+        <label for="otp">Enter OTP</label>
+        <input type="text" id="generated" placeholder="Enter your otp"/><br>
+        <button onclick="verifyotp(event)">Submit</button>
+
+</div>
+</div>
+
+</body>
+</html>
